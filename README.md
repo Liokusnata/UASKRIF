@@ -1,6 +1,16 @@
 # 🔐 Simulasi RC4 dan Visualisasi Keystream
 Aplikasi ini adalah alat bantu interaktif berbasis GUI (Tkinter) yang digunakan untuk mengenkripsi dan mendekripsi pesan menggunakan algoritma **RC4 (Rivest Cipher 4)** serta melakukan **visualisasi keystream** secara grafis. Aplikasi ini bertujuan untuk memberikan pemahaman mendalam mengenai mekanisme kerja stream cipher klasik dan karakteristik keystream-nya.
 
+---
+## 👥 Anggota Kelompok
+| Nama                    | NIM         |
+|-------------------------|-------------|
+| Lio Kusnata             | G1A023013   |
+| Rahman Firdaus Ilahi    | G1A023055   |
+| Abim Bintang Audio      | G1A023073   |
+| Ajis Saputra Hidayah    | G1A023083   |
+
+
 ## ❓ Apa itu RC4?
 
 **RC4 (Rivest Cipher 4)** adalah algoritma stream cipher yang dikembangkan oleh Ronald Rivest pada tahun 1987. RC4 bekerja dengan menghasilkan aliran byte pseudo-acak yang disebut **keystream**, yang kemudian di-**XOR** dengan plaintext (untuk enkripsi) atau ciphertext (untuk dekripsi).
@@ -12,14 +22,6 @@ RC4 dikenal karena:
 
 Namun, RC4 **tidak lagi aman untuk aplikasi kriptografi modern** karena kelemahan dalam pembangkitan keystream awal. Meskipun demikian, RC4 tetap menjadi algoritma yang relevan untuk **pembelajaran konsep dasar stream cipher**.
 
----
-## 👥 Anggota Kelompok
-| Nama                    | NIM         |
-|-------------------------|-------------|
-| Lio Kusnata             | G1A023013   |
-| Rahman Firdaus Ilahi    | G1A023055   |
-| Abim Bintang Audio      | G1A023073   |
-| Ajis Saputra Hidayah    | G1A023083   |
 
 ---
 ## 🧠 Algoritma dan Proses Enkripsi/Dekripsi
