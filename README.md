@@ -1,6 +1,17 @@
 # 🔐 Simulasi RC4 dan Visualisasi Keystream
 Aplikasi ini adalah alat bantu interaktif berbasis GUI (Tkinter) yang digunakan untuk mengenkripsi dan mendekripsi pesan menggunakan algoritma **RC4 (Rivest Cipher 4)** serta melakukan **visualisasi keystream** secara grafis. Aplikasi ini bertujuan untuk memberikan pemahaman mendalam mengenai mekanisme kerja stream cipher klasik dan karakteristik keystream-nya.
 
+## ❓ Apa itu RC4?
+
+**RC4 (Rivest Cipher 4)** adalah algoritma stream cipher yang dikembangkan oleh Ronald Rivest pada tahun 1987. RC4 bekerja dengan menghasilkan aliran byte pseudo-acak yang disebut **keystream**, yang kemudian di-**XOR** dengan plaintext (untuk enkripsi) atau ciphertext (untuk dekripsi).
+
+RC4 dikenal karena:
+- 🔹 Strukturnya yang sederhana
+- 🔹 Prosesnya cepat
+- 🔹 Pernah digunakan luas di protokol seperti **WEP**, **SSL**, dan **TLS**
+
+Namun, RC4 **tidak lagi aman untuk aplikasi kriptografi modern** karena kelemahan dalam pembangkitan keystream awal. Meskipun demikian, RC4 tetap menjadi algoritma yang relevan untuk **pembelajaran konsep dasar stream cipher**.
+
 ---
 ## 👥 Anggota Kelompok
 | Nama                    | NIM         |
@@ -27,15 +38,19 @@ Aplikasi ini adalah alat bantu interaktif berbasis GUI (Tkinter) yang digunakan 
 3. Keystream dihasilkan ulang menggunakan KSA dan PRGA.
 4. Ciphertext di-XOR dengan keystream untuk mendapatkan plaintext kembali.
 
-### Visualisasi Keystream
-1. Setelah enkripsi atau dekripsi, keystream disimpan untuk analisis.
-2. Visualisasi dapat ditampilkan dalam bentuk:
-   - Bar Chart
-   - Line Chart
-   - Heatmap
-   - Histogram
-   - Scatter Plot
-   - Statistik Keystream
+## 📊 Fungsi Visualisasi Keystream
+
+Setelah proses enkripsi/dekripsi berhasil, keystream dapat divisualisasikan melalui tombol-tombol berikut:
+
+| Jenis Visualisasi | Fungsi |
+|-------------------|--------|
+| **Bar Chart**     | Menampilkan keystream sebagai batang per byte |
+| **Line Chart**    | Grafik garis untuk melihat fluktuasi byte |
+| **Heatmap**       | Peta panas distribusi byte keystream |
+| **Histogram**     | Distribusi frekuensi nilai byte |
+| **Scatter Plot**  | Sebaran nilai byte terhadap indeks |
+| **Statistik**     | Informasi numerik: min, max, mean, std dev, jumlah unik |
+| **Export**        | Simpan visualisasi (.png) dan statistik (.csv) |
 
 ---
 ## 🖥️ Tampilan Antarmuka
