@@ -85,12 +85,4 @@ git clone https://github.com/[USERNAME]/Simulasi-RC4-Visualisasi.git
 - **Real-time Analysis**: Proses enkripsi dan dekripsi dilakukan secara instan saat tombol diklik.
 - **Responsif**: Aplikasi dapat menangani plaintext hingga 10.000 karakter dengan waktu respon < 0.1 detik.
 
-## 📌 Catatan Pengujian
-
-| Panjang Teks           | Waktu Eksekusi | Hasil               |
-|------------------------|----------------|---------------------|
-| < 100 karakter         | 0.1 s          | ✅ Berhasil          |
-| 100 – 10.000 karakter  | 0.1 s          | ✅ Berhasil          |
-| > 10.000 karakter      | 0.1 s          | ❌ Error ditampilkan |
-
 
